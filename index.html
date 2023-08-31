@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Country search by city</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="border">
+
+
+        <div class="position-absolute top-50 start-50 translate-middle containerWrap">
+            <div class="inputWrap">
+                <h1> Find the country by the capital city! </h1>
+                <p> Type the city below:</p>
+                <div class="inp row">
+                    <!-- <label for="cityInp"> Type the city below:</label> -->
+                    <input type="text" id="cityInp" name="cityInp"  class="cityInp col-8"></input> 
+                <!-- </div class="buttonWrap"> -->
+                    <!-- <div class="button"> -->
+                        <button class="btnFind btn btn-secondary col-4" id="buttonFind"> Find </button>
+                     <!-- </div> -->
+
+            </div>
+            <div id="result"></div>
+
+
+            <button class="clear btn btn-secondary btnClear position-absolute top-100 start-50 translate-middle" onclick="window.location.reload();"> Reset </button>
+
+            <!-- flag  -->
+            <!-- <div class="responseWrap">
+            <div class="flagWrap">
+                <img height="80px" width="150px">
+            </div> -->
+            <!-- country name -->
+            <!-- <div class="countryWrap row">
+            <h2 class="countryName col"> Country Name:</h2>
+            <h2 class="countryName col"> Example</h2>
+            </div> -->
+            <!-- currency -->
+            <!-- <div class="currencyWrap row">
+                <h3 class="countryCurrency col"> Currency: </h3>
+                <h3 class="countryCurrency col "> LOL</h3>
+            </div> -->
+            <!-- Continent  -->
+            <!-- <div class="continentWrap row">
+                <h4 class="countryContinent col"> Continent: </h4>
+                <h4 class="countryContinent col"> Example </h4>
+            </div>
+            </div> -->
+    
+           
+        
+        </div>
+    </div>
+
+    <!-- js script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
