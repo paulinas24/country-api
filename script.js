@@ -7,16 +7,7 @@ btn.addEventListener("click", () => {
   let url = `https://restcountries.com/v3.1/capital/${input}`;
 
   fetch(url).then((Response) => Response.json()).then((data) => {
-    // console.log(data[0]);
-    // console.log(data[0].name.common);
-    // console.log(data[0]);
    
-    // console.log(data[0].currencies[Object.keys(data[0].currencies)].name)
-    
-    // console.log(data[0].currencies[Object.keys(data[0].currencies)].symbol)
-
-    // console.log(data[0].continents[0])
-    // console.log(data[0].flags.svg)
 
     result.innerHTML = `
 
@@ -43,9 +34,7 @@ btn.addEventListener("click", () => {
     </div>`;
 
   })
-//  data[0].currencies[Object.keys(data[0].currencies)].name
-// } - ${Object.keys(data[0].currencies)[0]}
-// data[0.].name[Object.keys(data[0].name)]
+
 
 
 
