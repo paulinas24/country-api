@@ -72,3 +72,10 @@ color:rgb(250, 240, 230)
     border-radius: 50px;
     
 }
+footer {
+    color:rgb(92, 84, 112);
+}
+footer, p {
+    font-size: small;
+   
+}
